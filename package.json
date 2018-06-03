@@ -1,0 +1,28 @@
+{
+  "name": "corvallisWeather",
+  "version": "1.0.0",
+  "description": "A fun weather app for (and only) Corvallis, Oregon",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jorgemanzo/corvallisWeather.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jorgemanzo/corvallisWeather/issues"
+  },
+  "homepage": "https://github.com/jorgemanzo/corvallisWeather#readme",
+  "dependencies": {
+    "cities": "^1.1.2",
+    "kelvin-to-fahrenheit": "^1.1.0"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.8.1",
+    "serve": "^6.5.6"
+  }
+}

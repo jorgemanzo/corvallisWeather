@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8"></meta>
+    <title></title>
+    <link rel="stylesheet" href="main.css"></link>
+    <script src="index.js" defer></script>
+  </head>
+  <body id="mainBody">
+    <div id="mainContents">
+      <div class="navbar-search">
+        <form id="zipInput">
+          <input type="number" id="navbar-search-input" placeholder="Zipcode..."></input>
+        </form>        
+      </div>
+      <h2>
+        <div id="cityName"></div>
+        <div>Weather</div>
+      </h2>
+      <p>Currently:</p>
+      <h4 id="weatherMan"></h4>
+      <div id="sun"></div>
+      <p>Humidity:</p>
+      <div id="humidityDiv"></div>
+      <iframe id="ytplayer" style="display: none" type="text/html" width="720" height="405"
+        src="https://www.youtube.com/embed/cTl0ky4DcHA?autoplay=1&controls=0&disablekb=1&loop=1&rel=0&showinfo=0"
+        frameborder="0" allowfullscreen>
+      </iframe>
+      <div class="sourceContainer source">
+        <a class="source" href="https://github.com/jorgemanzo/corvallisWeather">Github</a>
+      </div>
+    </div>
+  </body>
+</html>
