@@ -24,7 +24,7 @@ function fromSearch() {
   let zipCode = document.getElementById("navbar-search-input").value;
   let callURL;
   if(zipCode !== ""){
-    cityName = cities.zip_lookup(zipCode).city;
+    let cityName = cities.zip_lookup(zipCode).city;
     
     callURL = "https://api.openweathermap.org/data/2.5/weather?zip=" + zipCode + ",us&APPID=aa9644578cbb315c8d2f7c97b00ecba3";
     return {
